@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body class="m-0">
+    <div class="col-m-12 col-s-12 colorGreen">
+        <h1 class="fontHeader">Lista Tareas</h1>
+    </div>
+    <div class="col-m-12 col-s-12 m-1">
+            <span>Categorias</span>
+            <select id="consulta" onchange=hazConsulta()>
+                <option value=''>---.----</option>
+                <option value='todas'>Todas</option>
+                <option value="categoria 1">Categoria 1</option>
+                <option value="categoria 2">Categoria 2</option>
+            </select>   
+    </div>
+    <div id = "mostrar">
+
+    </div>
+    <div class="col-m-12 col-s-12 colorGreen">
+        <h2 class="fontFooter">Fernando Bárcenas García 284661</h2>
+    </div>
+    <script src ="app.js"></script>
+</body>
+</html>
